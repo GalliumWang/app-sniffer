@@ -1,0 +1,22 @@
+.container {
+  position: absolute;
+  bottom: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: rgba(130, 116, 149, 0.64);
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.bull::before {
+  content: '•';
+  color: rgb(137, 137, 158, 0.48);
+  padding: 0 16px;
+}
+
+@media (max-width: 680px) {
+  .desktop {
+    display: none;
+  }
+}

@@ -1,0 +1,11 @@
+.icon {
+  width: 48px;
+  height: 52px;
+  margin-bottom: 52px;
+}
+
+@media (max-width: 680px) {
+  .icon {
+    margin-bottom: 24px;
+  }
+}

@@ -1,0 +1,9 @@
+.container {
+  font-size: 12px;
+  margin-top: 16px;
+  color: rgba(130, 116, 149, 0.64);
+}
+
+.container a {
+  color: rgba(130, 116, 149, 0.64);
+}
