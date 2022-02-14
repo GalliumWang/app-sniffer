@@ -7,7 +7,8 @@
   "scripts": {
     "lint": "eslint . --ext .ts,.tsx,.js --quiet --fix",
     "start": "webpack serve",
-    "build": "rm -rf dist && webpack --mode=production"
+    "build": "rm -rf dist && webpack --mode=production",
+    "build-win": "del /f /s /q dist 1>nul && rmdir /s /q dist && webpack --mode=production"
   },
   "dependencies": {
     "@cryptography/sha1": "^0.2.0",
