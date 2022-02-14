@@ -5,7 +5,7 @@
     "strict": true,
     "strictFunctionTypes": true,
     "esModuleInterop": true,
-    "noUnusedLocals": true,
+    "noUnusedLocals": false,
     "noUnusedParameters": true,
     "noImplicitAny": true,
     "noImplicitReturns": true,
