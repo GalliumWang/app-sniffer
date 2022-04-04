@@ -49,21 +49,21 @@ export const applications: ApplicationCandidate[] = [
     scheme: 'steam',
     icon: require('assets/app-icons/steam.svg').default,
   },
-  {
-    title: 'Battle.net',
-    scheme: 'battlenet',
-    icon: require('assets/app-icons/battlenet.svg').default,
-  },
+  // {
+  //   title: 'Battle.net',
+  //   scheme: 'battlenet',
+  //   icon: require('assets/app-icons/battlenet.svg').default,
+  // },
   {
     title: 'Xcode',
     scheme: 'xcode',
     icon: require('assets/app-icons/xcode.png').default,
   },
-  {
-    title: 'NordVPN',
-    scheme: 'nordvpn',
-    icon: require('assets/app-icons/nordvpn.png').default,
-  },
+  // {
+  //   title: 'NordVPN',
+  //   scheme: 'nordvpn',
+  //   icon: require('assets/app-icons/nordvpn.png').default,
+  // },
   {
     title: 'Sketch',
     scheme: 'sketch',
@@ -74,17 +74,16 @@ export const applications: ApplicationCandidate[] = [
     scheme: 'teamviewerapi',
     icon: require('assets/app-icons/teamviewer.svg').default,
   },
-  {
-    title: 'Microsoft Word',
-    scheme: 'word',
-    icon: require('assets/app-icons/word.svg').default,
-  },
+  // {
+  //   title: 'Microsoft Word',
+  //   scheme: 'word',
+  //   icon: require('assets/app-icons/word.svg').default,
+  // },
   {
     title: 'WhatsApp',
     scheme: 'whatsapp',
     icon: require('assets/app-icons/whatsapp.svg').default,
   },
-
   {
     title: 'Postman',
     scheme: 'postman',
@@ -95,26 +94,26 @@ export const applications: ApplicationCandidate[] = [
     scheme: 'aem-asset',
     icon: require('assets/app-icons/adobe.svg').default,
   },
-  {
-    title: 'Messenger',
-    scheme: 'messenger',
-    icon: require('assets/app-icons/messenger.svg').default,
-  },
+  // {
+  //   title: 'Messenger',
+  //   scheme: 'messenger',
+  //   icon: require('assets/app-icons/messenger.svg').default,
+  // },
   {
     title: 'Figma',
     scheme: 'figma',
     icon: require('assets/app-icons/figma.svg').default,
   },
-  {
-    title: 'Hotspot Shield',
-    scheme: 'hotspotshield',
-    icon: require('assets/app-icons/hotspotshield.png').default,
-  },
-  {
-    title: 'ExpressVPN',
-    scheme: 'expressvpn',
-    icon: require('assets/app-icons/expressvpn.svg').default,
-  },
+  // {
+  //   title: 'Hotspot Shield',
+  //   scheme: 'hotspotshield',
+  //   icon: require('assets/app-icons/hotspotshield.png').default,
+  // },
+  // {
+  //   title: 'ExpressVPN',
+  //   scheme: 'expressvpn',
+  //   icon: require('assets/app-icons/expressvpn.svg').default,
+  // },
   {
     title: 'Notion',
     scheme: 'notion',
@@ -124,5 +123,15 @@ export const applications: ApplicationCandidate[] = [
     title: 'iTunes',
     scheme: 'itunes',
     icon: require('assets/app-icons/itunes.svg').default,
+  },
+  {
+    title: 'QQ/TIM',
+    scheme: 'tencent',
+    icon: require('assets/app-icons/qq.svg').default,
+  },
+  {
+    title: '微信',
+    scheme: 'weixin',
+    icon: require('assets/app-icons/wechat.svg').default,
   },
 ]
